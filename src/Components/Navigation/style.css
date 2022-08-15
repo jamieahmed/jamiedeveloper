@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar  */
+.navbar {
+  position        : fixed;
+  top             : 0;
+  width           : 100vw;
+  display         : flex;
+  flex-direction  : row;
+  justify-content : space-between;
+  font-family     : "Times New Roman", Times, serif;
+  text-shadow     : 10px 2px 7px rgb(230, 218, 227);
+  font-size       : 20px;
+  background-color: black;
+  transition      : 1s;
+  z-index         : 100;
+}
+
+/* brand start */
+.brand {
+  width         : 50px;
+  height        : 50px;
+  font-size     : 35px;
+  font-weight   : 600;
+  border-top    : 5px solid orangered;
+  border-left   : 5px solid white;
+  border-radius : 20px;
+  padding-bottom: 0px;
+  padding-left  : 10px;
+  margin-left   : 40px;
+  text-shadow   : #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ec1983 0px 0px 75px;
+}
+
+.l-1 {
+  font-weight: 700;
+  color      : white;
+}
+
+.l-2 {
+  font-weight: 700;
+  color      : yellow;
+}
+
+.l-3 {
+  font-weight: 700;
+  color      : rgb(255, 0, 195);
+}
+
+.l-4 {
+  font-weight: 700;
+  color      : rgb(0, 255, 0);
+}
+
+.l-5 {
+  font-weight: 700;
+  color      : orangered;
+}
+
+/* brand end */
+
+/* ul start  */
+ul {
+  display        : flex;
+  flex-direction : row;
+  width          : 50vw;
+  justify-content: space-around;
+  margin-right   : 5%;
+  font-weight    : bolder;
+  list-style     : none;
+}
+
+a {
+  text-decoration: none;
+  color          : #ffffff;
+}
+
+ul,
+a:hover {
+  color: #fb0094;
+}
+
+/* Nav_items start */
+.nav_item {
+  display : inline-block;
+  position: relative;
+}
+
+.nav_item:after {
+  content         : "";
+  position        : absolute;
+  width           : 100%;
+  transform       : scaleX(0);
+  height          : 2px;
+  bottom          : 0;
+  left            : 0;
+  transform-origin: bottom right;
+  transition      : transform 0.25s ease-out;
+  background      : linear-gradient(45deg,
+      #fb0094,
+      #0000ff,
+      #00ff00,
+      #ffff00,
+      #ff0000,
+      #fb0094,
+      #0000ff,
+      #00ff00,
+      #ffff00,
+      #ff0000);
+}
+
+.nav_item:hover:after {
+  transform       : scaleX(1);
+  transform-origin: bottom left;
+}

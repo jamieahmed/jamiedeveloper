@@ -1,0 +1,110 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 60px;
+  /* change this url link with the pic */
+  background-image: url("https://www.desktopbackground.org/download/1920x1080/2011/02/18/159395_free-website-wallpaper-background-download-widescreen-wallpapers-wallpaper-website-background-free-download-widescreen-wallpapers-jpg_1920x1200_h.jpg");
+}
+
+.home-child-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 50%;
+  height: auto;
+  width: 100%;
+}
+
+
+.strong-typical {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  font-weight: bolder;
+  color: whitesmoke;
+  border-bottom: 5px dashed whitesmoke;
+  text-shadow: 0 -1px 4px #fff, 0 -2px 10px #ff0, 0 -10px 20px #ff8000,
+    0 -18px 40px #f00, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.my-name {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #000000,
+    0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+}
+
+.hi {
+  color: black;
+  margin-right: 15px;
+  font-weight: 900;
+}
+
+.short-description {
+  width: 70%;
+  text-align: start;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-shadow: rgb(0, 0, 0) 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #000000 0px 0px 20px, #000000 0px 0px 30px, #000000 0px 0px 40px,
+    #050405 0px 0px 50px, #000000 0px 0px 75px;
+}
+
+.button {
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-inline: 10px;
+  margin-top: 50px;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ec1983 0px 0px 75px;
+}
+
+.button>a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-icon {
+  font-size: 25px;
+}
+
+.button:hover {
+  color: #120f12;
+  background-color: #62FA83;
+}
+
+/* right side of home */
+
+.home-child-pic {
+  flex: 50%;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  padding: 30px;
+  margin: auto;
+}
+
+.button-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

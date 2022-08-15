@@ -1,11 +1,24 @@
-import React from "react";
+import './App.css';
+import Navigation from './Components/Navigation';
+import Home from './Components/Home';
+import About from './Components/About';
+import Skill from "./Components/Skills/Skill";
+import Projects from './Components/Projects';
+import Testimonial from './Components/Testimonial';
+import Footer from './Components/Footer';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>This first test</h1>
+    <div className="App">
+      <Navigation />
+      <Home />
+      <About />
+      <Skill />
+      <Projects />
+      <Testimonial />
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;
