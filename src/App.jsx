@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Navigation />
-      <Home />
+      <Home/>
       <About />
       <Skill />
       <Projects />

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './style.css'
 const Home = () => {
   return (
     <div>
-      <h3>Home</h3>
+      <h3>Home page</h3>
     </div>
   )
 }
