@@ -1,37 +1,25 @@
-// import './App.css';
-// import Navigation from './Components/Navigation';
-// import Home from './Components/Home';
-// import About from './Components/About';
-// import Skill from "./Components/Skills/Skill";
-// import Projects from './Components/Projects';
-// import Testimonial from './Components/Testimonial';
-// import Footer from './Components/Footer';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Navigation />
-//       <Home />
-//       <About />
-//       <Skill />
-//       <Projects />
-//       <Testimonial />
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-import React from 'react'
+import React from "react";
+import "./App.css";
+import Navigation from "./Components/Navigation/Navigation";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Skill from "./Components/Skills/Skill";
+import Projects from "./Components/Projects/Projects";
+import Testimonial from "./Components/Testimonial/Testimonial";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
-    <div>
-      <h1>Tesst me jamie</h1>
-    </div>
-  )
-}
+    <>
+      <Navigation />
+      <Home />
+      <About />
+      <Skill />
+      <Projects />
+      <Testimonial />
+      <Footer />
+    </>
+  );
+};
 
-export default App
-
+export default App;

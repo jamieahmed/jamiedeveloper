@@ -16,22 +16,22 @@ const Navigation = () => {
         </div>
         <ul>
           <li className="nav_item">
-            <a href="#home">Home</a>
+            <a href="/home">Home</a>
           </li>
           <li className="nav_item">
-            <a href="#about">About me</a>
+            <a href="/about">About me</a>
           </li>
           <li className="nav_item">
-            <a href="#skills">Skills</a>
+            <a href="/skills">Skills</a>
           </li>
           <li className="nav_item">
-            <a href="#projects">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li className="nav_item">
-            <a href="#Testimonial">Testimonial</a>
+            <a href="/testimonial">Testimonial</a>
           </li>
           <li className="nav_item">
-            <a href="#ContactMe">Contact Me</a>
+            <a href="/contactme">Contact Me</a>
           </li>
         </ul>
       </nav>
