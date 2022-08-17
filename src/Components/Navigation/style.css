@@ -39,37 +39,21 @@ html {
 
 .brand-link {
   text-decoration: none;
-}
-
-/* specifically design each word of brand */
-.l-1 {
-  font-weight: 700;
   color: white;
 }
 
-.l-2 {
+.brand-link:hover {
+  text-decoration: none;
+  color: #ff2d95;
   font-weight: 700;
-  color: yellow;
-}
-
-.l-3 {
-  font-weight: 700;
-  color: rgb(255, 0, 195);
-}
-
-.l-4 {
-  font-weight: 700;
-  color: rgb(0, 255, 0);
-}
-
-.l-5 {
-  font-weight: 700;
-  color: orangered;
 }
 
 /* toggler icon */
 .navbar-toggler-icon {
-  background-color: #d4ff00;
+  background-color: white;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ec1983 0px 0px 75px;
 }
 
 /* nav_items start here */
@@ -264,8 +248,6 @@ html {
   .dark-mood:last-child {
     font-size: 20px;
   }
-
-
 }
 
 

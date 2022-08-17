@@ -7,12 +7,8 @@ const Navigation = () => {
       <nav className="navbar navbar-expand-lg" id="nav-general-controler">
         <div className="container-fluid">
           <div className="brand">
-            <a className="brand-link" href="/home">
-              <strong className="l-1">J </strong>
-              <strong className="l-2">A </strong>
-              <strong className="l-3">M </strong>
-              <strong className="l-4">I </strong>
-              <strong className="l-5">E </strong>
+            <a className="brand-link" href="/">
+              <strong>JAMIE</strong>
             </a>
           </div>
           <button
@@ -28,19 +24,19 @@ const Navigation = () => {
           </button>
           <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div className="nav_item">
-              <a href="/home">Home</a>
+              <a href="#home">Home</a>
             </div>
             <div className="nav_item">
-              <a href="/about-me">About Me</a>
+              <a href="#about-me">About Me</a>
             </div>
             <div className="nav_item">
-              <a href="/resume">Resume</a>
+              <a href="#resume">Resume</a>
             </div>
             <div className="nav_item">
-              <a href="/projects">Projects</a>
+              <a href="#projects">Projects</a>
             </div>
             <div className="nav_item">
-              <a href="/contact-me">Contact Me</a>
+              <a href="#contact-me">Contact Me</a>
             </div>
             <button id="light-dark-button" className="dark-mood">
               <i className="bi bi-moon-fill"></i>
