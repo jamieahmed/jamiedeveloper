@@ -12,12 +12,15 @@ const App = () => {
   return (
     <>
       <Navigation />
-      <Home/>
+      <Home />
       <About />
       <Skill />
       <Projects />
       <Testimonial />
       <Footer />
+      <p className="footer-company-name">
+        © 2022 <i>J</i>amie<i>A</i>hmed. All rights reserved.
+      </p>
     </>
   );
 };
