@@ -1,9 +1,8 @@
-.footer {
+.footer-container {
     border-top: 3px solid white;
     background: linear-gradient(45deg, #77ce18 0%, #1c6ea4 44%, #c517b8 100%);
-}
-
-.footer-container {
+    color: wheat;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -14,20 +13,32 @@
     }
 }
 
-.Contact {
+.Contact,
+.Contact-right,
+.Contact-right-social {
     font-family: "Times New Roman", Times, serif;
     text-shadow: 10px 2px 7px rgb(230, 218, 227);
     text-align: center;
     font-size: 30px;
     margin-bottom: 40px;
     color: #ffffff;
+    margin-bottom: 0%;
 }
+
+.Contact-right {
+    margin: 10px auto;
+}
+
+.Contact-right-social {
+    margin: 10px auto;
+}
+
+
 
 /* footer-left */
 .footer-left {
     flex: 50%;
-    border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
 }
 
 input,
@@ -53,8 +64,9 @@ label {
 }
 
 input[type="submit"] {
-    background-color: #04aa6d;
-    color: white;
+    color: rgb(247, 241, 241);
+    font-weight: 20px;
+    background-color: rgb(48, 170, 48);
     padding: 12px 20px;
     border-radius: 4px;
     cursor: pointer;
@@ -62,7 +74,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0bdbea;
+    background-color: rgb(32, 186, 32);
 }
 
 @media screen and (max-width: 600px) {
@@ -84,7 +96,6 @@ input[type="submit"]:hover {
 
 /* footer-right */
 .footer-right {
-    padding: 10px;
     flex: 50%;
 }
 
@@ -97,11 +108,10 @@ input[type="submit"]:hover {
 }
 
 .contact {
-    margin: 10px 150px;
-    box-sizing: border-box;
+    margin: 10px auto;
     text-decoration: none;
-    transition: 0.5s;
     color: white;
+    font-weight: bolder;
 }
 
 #icon-contact {
@@ -121,9 +131,12 @@ input[type="submit"]:hover {
 #icon-social {
     font-weight: bolder;
     color: white;
-    border-radius: 50%;
     font-size: xx-large;
     margin: 0% 20px;
+}
+
+#icon-social:hover {
+    color: rgb(0, 13, 128);
 }
 
 /* footer-company-name */
@@ -139,3 +152,33 @@ input[type="submit"]:hover {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .contact {
+        margin-top: 0px;
+    }
+
+    #icon-contact {
+        display: none;
+    }
+
+    input,
+    textarea {
+        margin-top: 15px;
+    }
+
+    label {
+        margin-top: 15px;
+    }
+
+    input[type="submit"] {
+        margin-top: 15px;
+    }
+
+    #icon-social {
+        margin: 20% 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {}

@@ -21,7 +21,7 @@ const Footer = () => {
     emailjs
       .sendForm(
         // Service ID
-        "service_9k8f9im",
+        "service_m1atsmv",
         //  Template ID
         "template_avfullm",
         // Public Key
@@ -50,8 +50,8 @@ const Footer = () => {
       );
   };
   return (
-    <div className="footer" id="contact-me">
-      <div className="footer-container">
+    <footer>
+      <section className="footer-container">
         <div className="footer-left">
           <p className="Contact">Contact Me</p>
           <strong
@@ -118,12 +118,11 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           {/* Title */}
-          <p className="Contact">Contact Info</p>
-
+          <p className="Contact-right">Contact Info</p>
           <div className="contact-info">
             <p className=" contact">
               <MdEmail id="icon-contact" />
-              jamieahmed273@gmail.com
+              jamiedeveloper273@gmail.com
             </p>
             <p className="contact">
               <BsTelephoneForwardFill id="icon-contact" />
@@ -136,7 +135,7 @@ const Footer = () => {
           </div>
 
           {/* Title */}
-          <p className="Contact">Social Media</p>
+          <p className="Contact-right-social">Social Media</p>
           <div className="social-media-icons">
             <a href="https://www.facebook.com/JAMIEAHMEDIBRAHIM">
               <FaFacebook id="icon-social" />
@@ -152,11 +151,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
+      </section>
       <p className="footer-company-name">
         © 2022 <i>J</i>amie<i>A</i>hmed. All rights reserved.
       </p>
-    </div>
+    </footer>
   );
 };
 

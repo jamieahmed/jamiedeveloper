@@ -10,7 +10,6 @@ html {
   position: fixed;
   width: 100%;
 }
-
 .container-fluid {
   display: flex;
   flex-direction: row;
