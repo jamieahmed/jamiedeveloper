@@ -50,25 +50,9 @@ const Footer = () => {
       );
   };
   return (
-    <footer className="footer-container">
+    <footer className="footer-container" id="contact-me">
       <div className="footer-left">
         <p className="Contact">Contact Me</p>
-        <strong
-          style={{
-            backgroundColor: messageColor,
-            display: "flex",
-            justifyContent: "center",
-            textAlign: "center",
-            color: "white",
-            width: "50%",
-            margin: " 20px auto",
-            padding: "20",
-            fontWeight: "bolder",
-            borderRadius: "5px",
-          }}
-        >
-          {message}
-        </strong>
         <form ref={form} onSubmit={sendEmail} autoComplete="off">
           <label>Full Name</label>
           <input
@@ -113,6 +97,22 @@ const Footer = () => {
           <br />
           <input type="submit" value="Send" />
           <br />
+          <strong
+            style={{
+              backgroundColor: messageColor,
+              display: "flex",
+              justifyContent: "center",
+              textAlign: "center",
+              color: "white",
+              width: "50%",
+              margin: " 20px auto",
+              padding: "20",
+              fontWeight: "bolder",
+              borderRadius: "5px",
+            }}
+          >
+            {message}
+          </strong>
         </form>
       </div>
       <div className="footer-right">

@@ -1,5 +1,10 @@
+.App{
+    background-color: black;
+}
+
 /* footer-company-name */
 .footer-company-name {
+    border-top: 1px dotted white;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     font-size: 20px;

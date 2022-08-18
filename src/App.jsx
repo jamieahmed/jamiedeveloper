@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Navigation />
       <Home />
       <About />
@@ -19,9 +19,9 @@ const App = () => {
       <Testimonial />
       <Footer />
       <p className="footer-company-name">
-        © 2022 <i>J</i>amie<i>A</i>hmed. All rights reserved.
+        © 2022 <i>JamieAhmed</i> All rights reserved.
       </p>
-    </>
+    </div>
   );
 };
 

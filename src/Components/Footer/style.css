@@ -1,16 +1,10 @@
 .footer-container {
-    border-top: 3px solid white;
+    border-top: 1px dotted white;
     background: linear-gradient(45deg, #77ce18 0%, #1c6ea4 44%, #c517b8 100%);
     color: wheat;
     width: 100%;
     display: flex;
     flex-direction: row;
-}
-
-@media (max-width: 800px) {
-    .footer-container {
-        flex-direction: column;
-    }
 }
 
 .Contact,
@@ -32,8 +26,6 @@
 .Contact-right-social {
     margin: 10px auto;
 }
-
-
 
 /* footer-left */
 .footer-left {
@@ -75,23 +67,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: rgb(32, 186, 32);
-}
-
-@media screen and (max-width: 600px) {
-
-    label,
-    input,
-    [type="submit"] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    textarea {
-        width: 100%;
-        margin-top: 0;
-    }
 }
 
 /* footer-right */
@@ -139,8 +114,28 @@ input[type="submit"]:hover {
     color: rgb(0, 13, 128);
 }
 
+/* Responsive design */
+
+@media (max-width: 800px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 600px) {
+
+    label,
+    input,
+    [type="submit"] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 0;
+    }
+
     .contact {
         margin-top: 0px;
     }
@@ -170,5 +165,3 @@ input[type="submit"]:hover {
         font-size: 15px;
     }
 }
-
-@media screen and (max-width: 600px) {}

@@ -36,6 +36,9 @@ const Navigation = () => {
               <a href="#projects">Projects</a>
             </div>
             <div className="nav_item">
+              <a href="#testimonial">Testimonial</a>
+            </div>
+            <div className="nav_item">
               <a href="#contact-me">Contact Me</a>
             </div>
             <button id="light-dark-button" className="dark-mood">

@@ -14,7 +14,7 @@ const Testimonial = () => {
 
   let person = testimonialData[index];
   return (
-    <div id="Testimonial">
+    <div id="testimonial">
       <h2 className="testimonial">Testimonials</h2>
       <div className="card-contanier">
         <p className="length-of-index">
