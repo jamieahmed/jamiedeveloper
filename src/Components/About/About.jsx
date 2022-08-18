@@ -3,7 +3,7 @@ import "./style.css";
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div className="about-page" id="about-me">
       {/* left side of about page*/}
       <div className="about-left">
         <img src="../Images/jamie2.jpg" alt="n" className="about-image" />
