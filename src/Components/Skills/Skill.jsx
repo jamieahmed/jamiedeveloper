@@ -19,7 +19,7 @@ export default function Skill() {
   return (
     <>
       <h2 className="Resume-title" id="resume">Resume</h2>
-      <div class="resume-container">
+      <div className="resume-container">
         {/* Eduction */}
         <button
           className="resume-child "
