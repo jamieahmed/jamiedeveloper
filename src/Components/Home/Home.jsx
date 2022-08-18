@@ -1,7 +1,4 @@
 import React from "react";
-// import Typical from "react-typical";
-import { MdDownloadForOffline } from "react-icons/md";
-
 import "./style.css";
 
 const Home = () => {
