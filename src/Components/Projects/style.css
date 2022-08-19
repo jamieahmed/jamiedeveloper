@@ -28,6 +28,10 @@
   background: linear-gradient(45deg, #77ce18 0%, #1c6ea4 44%, #c517b8 100%);
 }
 
+.card:hover {
+  border: 2px solid rgb(255, 8, 8);
+}
+
 .picture {
   width: 100%;
   height: 50%;
@@ -56,64 +60,16 @@
   text-align: center;
 }
 
-/* overlay design start */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("https://www.desktopbackground.org/download/1920x1080/2011/02/18/159395_free-website-wallpaper-background-download-widescreen-wallpapers-wallpaper-website-background-free-download-widescreen-wallpapers-jpg_1920x1200_h.jpg");
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  transform: scale(0);
-  transition: 0.3s ease-in-out;
-  border: 3px solid black;
+.languages {
+  color: yellow;
 }
 
-.card:hover .overlay {
-  transform: scale(1);
-}
-
-.overlay-title {
-  font-weight: bolder;
-  color: white;
-  font-size: larger;
-  text-align: center;
-  padding: 15px;
-  font-family: Arial;
-  font-style: oblique;
-}
-
-.overlay-status {
-  color: red;
-  width: 100%;
-  text-align: start;
-  padding: 0px 15px;
-  font-weight: 900;
-  font-size: large;
-}
-
-.overlay-description {
-  color: wheat;
-  width: 100%;
-  padding: 0px 15px;
-  font-weight: 900;
-}
-
-.buttonGithub {
+.go-to-link {
   cursor: pointer;
-  background: blue;
+  background: rgb(146, 146, 170);
   margin: 20px;
 }
 
-.buttonDemo {
-  cursor: pointer;
-  background: blue;
-  margin: 20px;
-}
 
 .project-parent {
   display: flex;
@@ -180,6 +136,7 @@
     width: 100%;
     margin: 3%;
   }
+
   .filter-container {
     display: flex;
     justify-content: flex-end;
