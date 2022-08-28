@@ -1,4 +1,6 @@
 import React from "react";
+import "./style.css";
+
 import { useState, useEffect } from "react";
 
 const Card = ({ thing, filterState }) => {
@@ -23,11 +25,9 @@ const Card = ({ thing, filterState }) => {
       <img className="picture" src={thing.picture} alt="pic" />
       <p className="title">{thing.title}</p>
       <p className="status">{thing.status}</p>
-      <p className="languages">{thing.languages}</p>
-      <p className="description">{thing.description}</p>
-      <div>
+      <div className="link-container">
         <a href={thing.githubURL}>
-          <button className="go-to-link">Github</button>
+          <button className="go-to-link">GitHub</button>
         </a>
         <a href={thing.deploymentURL}>
           <button className="go-to-link">Demo</button>

@@ -3,7 +3,7 @@ const Data = [
     id: "f1",
     category: "Front-end",
     picture: "../Images/Tic-Tac-Toe.png",
-    title: "Tic-tac-toe Game",
+    title: "Tic tac toe Game",
     status: "completed",
     description:
       "Tic-tac-toe is a simple, two-player game that, if played optimally by both players, will always result in a tie.",
@@ -16,7 +16,7 @@ const Data = [
     id: "f2",
     category: "Front-end",
     picture: "../Images/Wireframe.jpg",
-    title: "Front-end (2) ",
+    title: "Cryptocurrency API ",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
@@ -28,7 +28,7 @@ const Data = [
     id: "f3",
     category: "Front-end",
     picture: "../Images/Wireframe.jpg",
-    title: "Front-end (3)",
+    title: "Admin panel",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
@@ -36,6 +36,19 @@ const Data = [
     deploymentURL: '',
     githubURL: '',
   },
+  {
+    id: "f4",
+    category: "Front-end",
+    picture: "../Images/Wireframe.jpg",
+    title: "Weather API",
+    status: "In progress",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: '',
+    githubURL: '',
+  },
+
   {
     id: "b1",
     category: "Back-end",
@@ -64,8 +77,8 @@ const Data = [
     id: "b3",
     category: "Back-end",
     picture: "../Images/Wireframe.jpg",
-    title: "Back-end (3)",
-    status: "In progress",
+    title: "Produce API",
+    status: "Not Yet",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
@@ -89,7 +102,7 @@ const Data = [
     id: "full2",
     category: "Full-Stack",
     picture: "../Images/Wireframe.jpg",
-    title: "Full-Stack (2)",
+    title: "You Tube Clone",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
@@ -102,7 +115,7 @@ const Data = [
     id: "full3",
     category: "Full-Stack",
     picture: "../Images/Wireframe.jpg",
-    title: "Full-Stack (3)",
+    title: "Netflix clone",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
@@ -110,6 +123,67 @@ const Data = [
     deploymentURL: '',
     githubURL: '',
   },
+  {
+    id: "full4",
+    category: "Full-Stack",
+    picture: "../Images/Wireframe.jpg",
+    title: "Eri Posts",
+    status: "In progress",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: '',
+    githubURL: '',
+  },
+  {
+    id: "full5",
+    category: "Full-Stack",
+    picture: "../Images/Wireframe.jpg",
+    title: "Team Managment tool",
+    status: "In progress",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: '',
+    githubURL: '',
+  },
+  {
+    id: "full6",
+    category: "Full-Stack",
+    picture: "../Images/Wireframe.jpg",
+    title: "Eri Books",
+    status: "In progress",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: '',
+    githubURL: '',
+  },
+  {
+    id: "full7",
+    category: "Full-Stack",
+    picture: "../Images/Wireframe.jpg",
+    title: "E-commerce",
+    status: "Not Started",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: '',
+    githubURL: '',
+  },
+  {
+    id: "full8",
+    category: "Full-Stack",
+    picture: "../Images/Wireframe.jpg",
+    title: "Chatting-app",
+    status: "Not started",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: '',
+    githubURL: '',
+  },
+
 ];
 
 export default Data;

@@ -125,7 +125,7 @@ const Footer = () => {
           </p>
           <p className="contact">
             <BsTelephoneForwardFill id="icon-contact" />
-            +1(732)221-0182
+            Not available
           </p>
 
           <a className="contact" href="https://goo.gl/maps/1MeUDyYnrnjPxn578">

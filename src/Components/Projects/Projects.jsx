@@ -5,7 +5,7 @@ import Card from "./Card";
 
 const Projects = () => {
   const [stuffArray, setStuffArray] = useState(Data);
-  const [filterState, setFilterState] = useState("Front-end");
+  const [filterState, setFilterState] = useState("All");
   return (
     <div>
       <h2 id="projects" className="projects-title">
