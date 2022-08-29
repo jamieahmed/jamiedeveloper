@@ -23,19 +23,20 @@
 }
 
 .card {
+  border: 1px solid white;
   height: 65vh;
   width: calc(var(--card-height) / 1.5);
   background: linear-gradient(45deg, #77ce18 0%, #1c6ea4 44%, #c517b8 100%);
 }
 
 .card:hover {
-  border: 2px solid rgb(255, 8, 8);
+  border: 2px solid white;
 }
 
 .picture {
   width: 100%;
   height: 50%;
-  padding: 5px;
+  padding: 3px;
 }
 
 .title {
@@ -49,7 +50,7 @@
 }
 
 .status {
-  color: rgb(170, 77, 95);
+  color: red;
   padding: 0px 20px;
   text-align: start;
 }
@@ -71,20 +72,24 @@
 }
 
 .go-to-link {
-  cursor: pointer;
-  background-color: black;
-  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid white;
   border-radius: 25px;
   color: white;
-  padding: 3px 5px;
-  font-size: 17px;
-  margin-top:10px;
-  margin-inline: 20px;
+  padding: 9px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-inline: 10px;
+  margin-top: 20px;
   text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
     #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
     #ff2d95 0px 0px 50px, #ec1983 0px 0px 75px;
 }
 
+.go-to-link:hover {
+  background-color: #62FA83;
+  color:gray;
+}
 
 .project-parent {
   display: flex;

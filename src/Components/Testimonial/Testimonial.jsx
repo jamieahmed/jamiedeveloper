@@ -24,7 +24,7 @@ const Testimonial = () => {
         <h2 id="person-name">{person.name}</h2>
         <h4 id="person-postion">"{person.role}"</h4>
         <p id="person-description"> "{person.description}</p>
-        <button className="previos" onClick={handlePrevious}>
+        <button className="previous" onClick={handlePrevious}>
           &laquo; Previous
         </button>
         <button className="next" onClick={handleNext}>

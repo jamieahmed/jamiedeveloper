@@ -70,17 +70,28 @@
 }
 
 .previous {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.previous:hover {
     background-color: #f1f1f1;
     color: black;
-    margin-bottom: 0px;
 }
 
 .next {
-    background-color: #04AA6D;
     color: white;
     float: right;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
+.next:hover {
+    background-color: #04AA6D;
+}
 
 /* ////////////////////////Responsive design ///////////////////////// */
 

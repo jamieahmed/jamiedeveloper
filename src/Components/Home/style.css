@@ -58,11 +58,11 @@
 }
 
 .buttonH {
-    background-color: DodgerBlue;
+    background-color: transparent;
     border: 1px solid white;
     border-radius: 25px;
     color: white;
-    padding: 12px 30px;
+    padding: 5px 20px;
     cursor: pointer;
     font-size: 20px;
     margin-inline: 10px;

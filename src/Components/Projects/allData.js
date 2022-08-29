@@ -36,18 +36,6 @@ const Data = [
     deploymentURL: '',
     githubURL: '',
   },
-  {
-    id: "f4",
-    category: "Front-end",
-    picture: "../Images/Wireframe.jpg",
-    title: "Weather API",
-    status: "In progress",
-    description:
-      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
-    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
-  },
 
   {
     id: "b1",
@@ -159,31 +147,6 @@ const Data = [
     deploymentURL: '',
     githubURL: '',
   },
-  {
-    id: "full7",
-    category: "Full-Stack",
-    picture: "../Images/Wireframe.jpg",
-    title: "E-commerce",
-    status: "Not Started",
-    description:
-      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
-    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
-  },
-  {
-    id: "full8",
-    category: "Full-Stack",
-    picture: "../Images/Wireframe.jpg",
-    title: "Chatting-app",
-    status: "Not started",
-    description:
-      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
-    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
-  },
-
 ];
 
 export default Data;
