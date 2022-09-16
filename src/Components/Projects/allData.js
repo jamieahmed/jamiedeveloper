@@ -15,14 +15,14 @@ const Data = [
   {
     id: "f2",
     category: "Front-end",
-    picture: "../Images/Wireframe.jpg",
-    title: "Cryptocurrency API ",
+    picture: "https://i.imgur.com/cZ5l5zQ.png",
+    title: "Gold - Fitness",
     status: "In progress",
     description:
-      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
-    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
+      "React Responsive Gym Website Using ReactJs, React hooks, modern CSS, framer motion,Email js library and many more.",
+    languages: "ReactJS,CSS,Material-UI and many more.",
+    deploymentURL: 'https://eri-fitness.netlify.app/',
+    githubURL: 'https://github.com/jamieahmed/eri-fitness',
   },
   {
     id: "f3",

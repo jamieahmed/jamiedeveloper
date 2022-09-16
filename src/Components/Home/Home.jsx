@@ -20,11 +20,9 @@ const Home = () => {
           <button className="buttonH">
             <a href="#contact-me">Contact Me</a>
           </button>
-          <button className="buttonH">
-            <a href="Resume.pdf" download="jamie-resume.pdf">
-              Download Resume!
-            </a>
-          </button>
+          <a href="../assets/Jamie-Ahmed-Resume.pdf" download="Jamie-Ahmed-Resume.pdf">
+            <button className="buttonH">Download Resume!</button>
+          </a>
         </div>
       </div>
       {/* right side of home  */}

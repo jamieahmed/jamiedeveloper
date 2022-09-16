@@ -7,7 +7,6 @@ import Skill from "./Components/Skills/Skill";
 import Projects from "./Components/Projects/Projects";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Footer from "./Components/Footer/Footer";
-
 const App = () => {
   return (
     <div className="App">
