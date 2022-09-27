@@ -27,14 +27,27 @@ const Data = [
   {
     id: "f3",
     category: "Front-end",
-    picture: "../Images/Wireframe.jpg",
-    title: "Admin panel",
-    status: "In progress",
+    picture: "../Images/Eri-Reactville.png",
+    title: "Reactville",
+    status: "Completed",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
+    deploymentURL: 'https://jamie-reactville.netlify.app/',
+    githubURL: 'https://github.com/jamieahmed/Eri-Reactville',
+  },
+
+  {
+    id: "f3",
+    category: "Front-end",
+    picture: "../Images/Wireframe.jpg",
+    title: "Crypto currency API",
+    status: "Completed",
+    description:
+      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
+    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
+    deploymentURL: 'https://jamie-reactville.netlify.app/',
+    githubURL: 'https://github.com/jamieahmed/Eri-Reactville',
   },
 
   {
@@ -62,11 +75,11 @@ const Data = [
     githubURL: 'https://github.com/jamieahmed/developer-management-tool-',
   },
   {
-    id: "b3",
-    category: "Back-end",
+    id: "full1",
+    category: "Full-Stack",
     picture: "../Images/Wireframe.jpg",
-    title: "Produce API",
-    status: "Not Yet",
+    title: "You Tube Clone",
+    status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
@@ -74,7 +87,7 @@ const Data = [
     githubURL: '',
   },
   {
-    id: "full1",
+    id: "full2",
     category: "Full-Stack",
     picture: "../Images/squad.png",
     title: "Squad Swap",
@@ -87,36 +100,23 @@ const Data = [
   },
 
   {
-    id: "full2",
-    category: "Full-Stack",
-    picture: "../Images/Wireframe.jpg",
-    title: "You Tube Clone",
-    status: "In progress",
-    description:
-      "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
-    languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
-  },
-
-  {
     id: "full3",
     category: "Full-Stack",
-    picture: "../Images/Wireframe.jpg",
-    title: "Netflix clone",
+    picture: "../Images/EriDating.png",
+    title: "Dating App",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
+    deploymentURL: 'https://eridating.netlify.app/',
+    githubURL: 'https://github.com/jamieahmed/EriDating-front-end',
   },
   {
     id: "full4",
     category: "Full-Stack",
-    picture: "../Images/Wireframe.jpg",
-    title: "Eri Posts",
-    status: "In progress",
+    picture: "../Images/Puppy.png",
+    title: "Puppies (CRUD APP)",
+    status: "completed",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
@@ -127,7 +127,7 @@ const Data = [
     id: "full5",
     category: "Full-Stack",
     picture: "../Images/Wireframe.jpg",
-    title: "Team Managment tool",
+    title: "Chatting APP",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
