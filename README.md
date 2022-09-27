@@ -21,7 +21,7 @@
 - JavaScript
 - Document Object Model (DOM)
 - React.js
-- react-bootstrap
+- React-bootstrap
 - Bootstrap
 - Git/GitHub
 

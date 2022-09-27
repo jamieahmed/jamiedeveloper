@@ -138,14 +138,14 @@ const Data = [
   {
     id: "full6",
     category: "Full-Stack",
-    picture: "../Images/Wireframe.jpg",
+    picture: "../Images/eribooks.png",
     title: "Eri Books",
     status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: '',
-    githubURL: '',
+    deploymentURL: 'https://github.com/jamieahmed/eribooks-front-end',
+    githubURL: 'https://eribooks.netlify.app/',
   },
 ];
 
