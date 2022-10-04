@@ -23,14 +23,14 @@
 }
 
 .card {
-  border: 1px solid white;
+  border: 1px solid black;
   height: 65vh;
   width: calc(var(--card-height) / 1.5);
   background: linear-gradient(45deg, #77ce18 0%, #1c6ea4 44%, #c517b8 100%);
 }
 
 .card:hover {
-  border: 2px solid white;
+ cursor: pointer;
 }
 
 .picture {

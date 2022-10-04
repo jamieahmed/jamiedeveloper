@@ -40,14 +40,14 @@ const Data = [
   {
     id: "f3",
     category: "Front-end",
-    picture: "../Images/Wireframe.jpg",
-    title: "Crypto currency API",
-    status: "Completed",
+    picture: "../Images/lucid.png ",
+    title: "lucid",
+    status: "In progress",
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: 'https://jamie-reactville.netlify.app/',
-    githubURL: 'https://github.com/jamieahmed/Eri-Reactville',
+    deploymentURL: 'https://lucidclone.netlify.app/',
+    githubURL: 'https://github.com/jamieahmed/lucid-clone',
   },
 
   {
@@ -144,8 +144,8 @@ const Data = [
     description:
       "This Social media app created by using MERN Stack,if you wish to know more about it, please take a look at live sit or Github sources,",
     languages: "MongoDB, ExpressJS, ReactJS, NodeJs and  some  dependencies.",
-    deploymentURL: 'https://github.com/jamieahmed/eribooks-front-end',
-    githubURL: 'https://eribooks.netlify.app/',
+    deploymentURL: 'https://eribooks.netlify.app/ ',
+    githubURL: 'https://github.com/jamieahmed/eribooks-front-end',
   },
 ];
 
