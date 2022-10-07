@@ -37,7 +37,7 @@ export default function Skill() {
         </button>
         <Modal show={showEducation} onHide={handleCloseEducation}>
           <Modal.Header closeButton>
-            <Modal.Title>Education</Modal.Title>
+            <Modal.Title> Education </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <h5>General Assembly</h5>
