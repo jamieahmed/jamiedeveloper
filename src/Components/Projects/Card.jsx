@@ -1,27 +1,9 @@
 import React from "react";
 import "./style.css";
 
-import { useState, useEffect } from "react";
-
-const Card = ({ thing, filterState }) => {
-  const [styleStuff, setStyleStuff] = useState({
-    display: "block",
-  });
-
-  useEffect(() => {
-    if (thing.category !== filterState && filterState !== "All") {
-      setStyleStuff({
-        display: "none",
-      });
-    } else {
-      setStyleStuff({
-        display: "block",
-      });
-    }
-  }, [filterState]);
-
+const Card = ({ thing }) => {
   return (
-    <div className="card" style={styleStuff}>
+    <div className="card">
       <img className="picture" src={thing.picture} alt="pic" />
       <p className="title">{thing.title}</p>
       <p className="status">{thing.status}</p>

@@ -41,9 +41,9 @@ const Navigation = () => {
             <div className="nav_item">
               <a href="#contact-me">Contact Me</a>
             </div>
-            <button id="light-dark-button" className="dark-mood">
+            {/* <button id="light-dark-button" className="dark-mood">
               <i className="bi bi-moon-fill"></i>
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

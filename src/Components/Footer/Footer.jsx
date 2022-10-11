@@ -125,12 +125,11 @@ const Footer = () => {
           </p>
           <p className="contact">
             <BsTelephoneForwardFill id="icon-contact" />
-            Not available
+            732-221-0182
           </p>
-
-          <a className="contact" href="https://goo.gl/maps/1MeUDyYnrnjPxn578">
-            <GoLocation id="icon-contact" /> Get Location{" "}
-          </a>
+          <span className="contact">
+            <GoLocation id="icon-contact" /> Westfield, New Jersey
+          </span>
         </div>
 
         {/* Title */}
