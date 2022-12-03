@@ -13,8 +13,7 @@ const About = () => {
         <h3 className="about-me-title">About Me </h3>
         <div className="about-me-description">
           <p>
-            I am a full stack software engineer based in the New York City
-            Metropolitan Area with a background in business and management. I
+            I am a full stack software engineer based in the Columbus metropolitan area with a background in business and management. I
             have recently completed General Assembly's full time Software
             Engineering Immersive program where I learned software development
             and engineering. I am looking to embark on my journey as a software
