@@ -18,7 +18,9 @@ export default function Skill() {
 
   return (
     <>
-      <h2 className="Resume-title" id="resume">Resume</h2>
+      <h2 className="Resume-title" id="resume">
+        Resume
+      </h2>
       <div className="resume-container">
         {/* Eduction */}
         <button
@@ -48,12 +50,23 @@ export default function Skill() {
               well-rounded full stack developer.
             </p>
             <h5>Harvest British College</h5>
-            <strong>English as a Second Language Training Certificate </strong>
+            <strong>English as a Second Language Training</strong>
             <p>
               Successfully completed the British Diploma and passed the final
               examination of General English Courses along with Phonetics,
               Conversation, Business English, Translation and Soft Skills.
             </p>
+
+            <h5>YAT Learning Solutions </h5>
+            <strong>Software development course </strong>
+            <p>
+              Successfully completed the yat learning solutions software
+              development course.
+            </p>
+
+            <h5>Eritrean Institute of Technology </h5>
+            <strong>Computer science </strong>
+            <p>bachelor of science - Computer science</p>
           </Modal.Body>
         </Modal>
 
@@ -198,8 +211,8 @@ export default function Skill() {
               <strong> Creativity & Problem Solving </strong> |
               <strong> Tolerance & Patience </strong> |
               <strong> Attention to Details </strong> |
-              <strong> Self-learning </strong> |<strong> Adaptability </strong>{" "}
-              |<strong> Resourceful </strong> |
+              <strong> Self-learning </strong> |<strong> Adaptability </strong>|
+              <strong> Resourceful </strong> |
             </div>
           </Modal.Body>
         </Modal>
@@ -224,69 +237,113 @@ export default function Skill() {
             <Modal.Title>Experience</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            {/* job 1 */}
             <h5>Front End Developer</h5>
-            <strong>Mefth</strong>
-            <div>
-              <small>➡️ Develop new user-facing features</small> <br />
-              <small>
-                ➡️ Define how the application looks and how it works
-              </small>{" "}
-              <br />
-              <small>➡️ Structure and design of web pages</small> <br />
-              <small>
-                ➡️ Bridge the gap between graphic design and technical
-                implementation
-              </small>{" "}
-              <br />
-              <small>
-                ➡️ Validate input before submitting to back end
-              </small>{" "}
-              <br />
-              <small>➡️ Write front end code and test</small> <br />
-            </div>
-            <h5>Owner/Team Manager </h5>
-            <strong>Farhana English Community </strong>
-            <div>
-              <small>➡️ Managed team of 30+ teachers</small> <br />
-              <small>
-                ➡️ Recruited teachers and students to increase our impact
-              </small>{" "}
-              <br />
-              <small>➡️ Provided guidance to teachers and students</small>{" "}
-              <br />
-            </div>
-            <h5>Driving Teacher Assistant </h5>
-            <strong>Giyon Driving School</strong>
+            <strong>
+              Mefth{" "}
+              <strong className="placeanddate">
+                Cairo, Egypt 03/2019 - 10/2019
+              </strong>
+            </strong>
             <div>
               <small>
-                ➡️ Helped clients with practical and theoretical driving
-                training
-              </small>{" "}
-              <br />
-              <small>
-                ➡️ Provided feedback and instruction to clients to help them
-                succeed
+                ● Coded using HTML, CSS, JavaScript and React js to develop
+                features for both mobile and desktop platforms. <br />
+                ● Designed and updated layouts to meet usability and performance
+                requirements.
+                <br /> ● Made recommendations for new technology integration
+                based on suitability and alignment to business goals.
+                <br /> ● Develop new user-facing features and define the
+                appearance and functionality of the site.
+                <br /> ● Bridge the gap between graphic design and technical
+                implementation.
+                <br /> ● Validate input before submitting to the back end.
+                <br /> ● Addressed and fixed complex bugs.
+                <br /> ● Coded software updates and alterations based on
+                detailed design specifications.
+                <br /> ● Planned, developed, tested, deployed and maintained web
+                applications.
+                <br /> ● Worked well independently and within a team setting.
               </small>{" "}
               <br />
             </div>
-            <h5>Constructor Manager Assistant/Supervisor </h5>
-            <strong>Wedi Sudan</strong>
+
+            {/* job 2 */}
+            <h5>Software engineer </h5>
+            <strong>
+              Flairstech{" "}
+              <strong className="placeanddate">
+                Cairo, Egypt 03/2019 - 10/2019
+              </strong>
+            </strong>
             <div>
               <small>
-                ➡️ Led daily production and operation contractor meeting
+                ● Assisted in requirements analysis, High Level Design, Low
+                Level Design, and complex code development for 15+ applications.
+                <br />● Provided technical direction and system architecture for
+                50+ individual initiatives.
+                <br />● Attended 20+ weekly standup meetings to receive weekly
+                tasks and mentorship from senior developers
+                <br />● Collaborated with external programmers to coordinate
+                delivery of 6 new software applications.
+                <br />● Implemented and updated application modules under the
+                direction of Senior Software Developers.
+                <br />● Collaborated productively with the product team to
+                understand requirements and business specifications around
+                portfolio management, analytics and risk.
+                <br />● Developed and presented findings and solutions to
+                audiences including senior executives and stakeholders.
+                <br />● Followed policies and procedures related to application
+                methods and quality standards at all times.
+                <br />● Effectively translated client requirements into
+                application designs and systems requirements.
+              </small>
+              <br />
+            </div>
+            {/* job 3 */}
+            <h5>Business Owner/Operations manager </h5>
+            <strong>
+              Farhana English Community{" "}
+              <strong className="placeanddate">
+                Cairo, Egypt 03/2019 - 10/2019
+              </strong>
+            </strong>
+            <div>
+              <small>
+                ● Managed day-to-day business operations.
+                <br />● Recruited teachers and students to increase our impact
+                and provided guidance to teachers and students.
+                <br />● Started with 20 students and 4 teachers, in one-year
+                increased enrollment to 200+ students and 30 teachers.
+                <br />● Trained and motivated employees to perform daily
+                business functions.
               </small>{" "}
               <br />
+            </div>
+            {/* job 4 */}
+            <h5>Junior web developer</h5>
+            <strong>
+              CLS Learning solutions{" "}
+              <strong className="placeanddate">
+                Cairo, Egypt 03/2019 - 10/2019
+              </strong>
+            </strong>
+            <div>
               <small>
-                ➡️ Helping the team understand performance targets and goals
-              </small>{" "}
-              <br />
-              <small>
-                ➡️ Facilitated strong communication to resolve issues
-              </small>{" "}
-              <br />
-              <small>
-                ➡️ Shared updates, financial results, and new objectives with
-                team members
+                ● Worked as a productive and positive team member to design,
+                code, test, report, and debug operations.
+                <br />● Managed front-end and back-end development in the
+                company's Portfolio Analyst, Employee Track, and Account
+                Management systems.
+                <br />● Successfully identified, diagnosed, and fixed website
+                problems, including broken links, typographical errors, and
+                formatting issues.
+                <br />● Helped to achieve a consistent look and visual theme
+                across the website by promoting uniform fonts, formatting,
+                images, and layout.
+                <br />
+                ●Evaluated and became knowledgeable in new standards,
+                technologies, and trends in website development.
               </small>{" "}
               <br />
             </div>

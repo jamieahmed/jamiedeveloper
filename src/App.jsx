@@ -18,7 +18,7 @@ const App = () => {
       <Testimonial />
       <Footer />
       <p className="footer-company-name">
-        © 2022 <i>JamieAhmed</i> All rights reserved.
+        © 2023 <i>JamieAhmed</i> All rights reserved.
       </p>
     </div>
   );

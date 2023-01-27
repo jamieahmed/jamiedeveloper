@@ -128,7 +128,7 @@ const Footer = () => {
             732-221-0182
           </p>
           <span className="contact">
-            <GoLocation id="icon-contact" /> Westfield, New Jersey
+            <GoLocation id="icon-contact" /> Columbus, Ohio
           </span>
         </div>
 

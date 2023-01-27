@@ -90,6 +90,10 @@
   margin-top: 0px;
 }
 
+.placeanddate {
+  float: right;
+}
+
 .modal-body>p {
   color: black;
 }
