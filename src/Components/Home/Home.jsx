@@ -12,15 +12,23 @@ const Home = () => {
         </h3>
         <strong className="role">Full Stack Software Engineer👨‍💻</strong>
         <p className="short-description">
-          🧑🏿‍💻Software Engineer with management skills who is passionate about
-          developing full-stack, scalable web applications. I design, develop
-          and maintain fully-fledged websites and applications..
+          🧑🏿‍💻Passionate Software Engineer with management skills specializing in
+          full-stack web application development. Experienced in designing and
+          maintaining fully-fledged websites and applications. Proven expertise
+          in both frontend and backend technologies, with a keen eye for design
+          and a commitment to delivering efficient and high-quality code.
+          Constantly learning and staying up-to-date with industry trends.
+          Committed to creating innovative software solutions that drive
+          business success.
         </p>
         <div>
           <button className="buttonH">
             <a href="#contact-me">Contact Me</a>
           </button>
-          <a href="../assets/Jamie-Ahmed-Resume.pdf" download="Jamie-Ahmed-Resume.pdf">
+          <a
+            href="../assets/Jamie-Ahmed-Resume.pdf"
+            download="Jamie-Ahmed-Resume.pdf"
+          >
             <button className="buttonH">Download Resume!</button>
           </a>
         </div>

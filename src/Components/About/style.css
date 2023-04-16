@@ -21,7 +21,7 @@
     text-align: center;
     width: 100%;
     font-family: "Times New Roman", Times, serif;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0%;
 
     color: whitesmoke;
@@ -48,11 +48,11 @@
 
 /* styling about-me-description start here */
 .about-me-description {
-    color: burlywood;
+    color:white;
     font-style: oblique;
-    font-size: 20px;
-    padding: 35px;
-    width: 90%;
+    font-size: 16px;
+    padding: 25px;
+    width: 100%;
     text-align: justify;
 }
 

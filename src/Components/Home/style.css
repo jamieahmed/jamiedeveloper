@@ -47,11 +47,12 @@
 }
 
 .short-description {
-    width: 70%;
-    text-align: start;
+    width: 80%;
+    text-align: center;
     font-weight: bold;
+    justify-content: space-evenly;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     text-shadow: rgb(0, 0, 0) 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
         #000000 0px 0px 20px, #000000 0px 0px 30px, #000000 0px 0px 40px,
         #050405 0px 0px 50px, #000000 0px 0px 75px;
